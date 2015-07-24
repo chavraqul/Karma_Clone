@@ -425,3 +425,61 @@ td,
 th {
   padding: 0;
 }
+
+/******************************************************************
+*
+*My Custom CSS
+*Author: Chavez, Raquel
+*Last Date modified: 07/23/2015
+*Version: 0.1
+*
+******************************************************************/
+
+body{
+  background-color: LightGray;
+}
+
+div{
+  border: 1px solid Chocolate;
+  background-color: white;
+}
+
+.navLogo{
+  width: 26px;
+  max-width: 10%;
+}
+
+.navBarHeader{
+  
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 3%;
+
+}
+
+.navBarLinks{
+    float: right;
+    
+}
+
+.links{
+    list-style-type: none;
+       
+}
+
+.links> li {
+  display:inline-block;
+  padding-right: 2em;
+
+}
+
+.links > li > a{
+  text-decoration:none;
+  color: Gray;
+}
+
+.bold-font{
+  font-weight: bold;
+  color: #444444;
+}
