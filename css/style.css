@@ -444,6 +444,20 @@ div{
   background-color: white;
 }
 
+/****Navigation section****/
+.navbar{
+    float: right;
+    background-color: white;
+    
+}
+
+/*Notes: margin: 0 auto to center*/
+.navbar > .content{
+  width: 970px;
+  height: 70px;
+  margin: 0 auto;
+}
+
 .navLogo{
   width: 26px;
   max-width: 10%;
@@ -458,14 +472,9 @@ div{
 
 }
 
-.navBarLinks{
-    float: right;
-    
-}
-
 .links{
     list-style-type: none;
-       
+
 }
 
 .links> li {
