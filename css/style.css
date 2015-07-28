@@ -460,7 +460,6 @@ div{
 .navbar{
     
     background-color: #fff;
-    
 }
 
 /*Notes: margin: 0 auto to center*/
@@ -507,4 +506,34 @@ div{
 .navbar .links li a:hover{
   color: #000000;
   cursor: pointer;
+}
+
+/*Middle section: Karma introduction*/
+section{
+  border: 1px solid Chocolate;
+}
+.intro-section{
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  height: 30rem;
+  background-image: url('https://photos-4.dropbox.com/t/2/AACQDAp_i_74N_Ay9PfvkLZmqc5MB7vHBthGpXVRG3AcFw/12/357404183/jpeg/32x32/1/1438059600/0/2/first-background%20copy.jpg/CJectqoBIAEgAiADIAQgBSAGIAcoAg/KW8UftFosyCQF7X9rgCZFn7FVHUwtxuM6S4d-wOzxEc?size_mode=5');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro-title{
+  color: white;
+}
+
+.intro-text{
+  color: white;
+}
+
+.btn-format{
+
+}
+
+.intro-title,
+.intro-text{
+  text-align: center;
 }
