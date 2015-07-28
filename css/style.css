@@ -513,27 +513,59 @@ section{
   border: 1px solid Chocolate;
 }
 .intro-section{
+  /*
   padding-top: 10rem;
   padding-bottom: 10rem;
-  height: 30rem;
-  background-image: url('https://photos-4.dropbox.com/t/2/AACQDAp_i_74N_Ay9PfvkLZmqc5MB7vHBthGpXVRG3AcFw/12/357404183/jpeg/32x32/1/1438059600/0/2/first-background%20copy.jpg/CJectqoBIAEgAiADIAQgBSAGIAcoAg/KW8UftFosyCQF7X9rgCZFn7FVHUwtxuM6S4d-wOzxEc?size_mode=5');
+  */
+  background-position: center bottom;
+  height: 600px;
+  background-image: url("../images/Karma-background-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: auto;
 }
 
 .intro-title{
+  margin-top: 10rem;
+  margin-bottom: 0.4em;
   color: white;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 3em;
+  font-weight: normal;
+  letter-spacing: 0.06em
 }
 
 .intro-text{
+  margin-top: 0;
   color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: normal;
 }
 
 .btn-format{
+  padding: 16px 26px;
+  line-height: 1.33;
+  background-color: #FF6600;
+  /*
+  border: 1px solid #FF6600;
+  */
+  color: #FFFFFF;
+  margin-left: 44%;
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  width: auto;
+  font-size: 1em;
 
-}
+}  
 
 .intro-title,
-.intro-text{
+.intro-text,
+.btn-format{
   text-align: center;
+}
+
+.btn-format:hover{
+  background-color: #FF3300;
 }
