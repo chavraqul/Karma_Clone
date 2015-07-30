@@ -23,6 +23,7 @@ div{
   width: 100%;
   z-index: 9999;
   background-color: #fff;
+  border-bottom: 1px solid #DDD;
 }
 
 /*Notes: margin: 0 auto to center*/
@@ -42,14 +43,14 @@ div{
 
 
 .navbar .links{
-    float: right;
-    color: #838994;
-    font-family: 'Baumans', sans-serif;
-    font-size: 1.1em;
-    letter-spacing: 0.03em;
-    margin-top: 1.6rem;
-    margin-bottom: 0;
-    list-style-type: none;
+  float: right;
+  color: #838994;
+  font-family: 'Baumans', sans-serif;
+  font-size: 1.1em;
+  letter-spacing: 0.03em;
+  margin-top: 1.6rem;
+  margin-bottom: 0;
+  list-style-type: none;
 }
 
 .navbar .links li {
@@ -175,10 +176,71 @@ div{
     border: 1px solid black;
     box-sizing: border-box;
     */
-  }
+}
 
-  .three-icon-align div{
-    margin-left: 2em;
-    margin-top: 1em;
-    margin-right: 3em;
-  }
+.three-icon-align div{
+  margin-left: 2em;
+  margin-top: 1em;
+  margin-right: 3em;
+}
+
+/*Footer section*/
+.social{
+  text-align: center;
+  background-color: #fff;
+  padding-bottom: 9.3rem;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.icon{
+  list-style: none;
+  
+}
+
+.fa{
+  display: inline-block;
+  font-size: inherit;
+
+}
+
+.fa-twitter{
+
+}
+
+.fa-facebook{
+
+}
+
+.fa-instagram{
+
+}
+
+.social p{
+  color: #838994;
+}
+
+.social .twitter{
+  color: #55acee;
+}
+
+.social .facebook{
+  color: #4c66a4;
+}
+
+.social .instagram{
+  color: #3f729b;
+}
+
+.social .icon > li{
+  display: inline-block;
+  border-radius: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 1.25rem 5px;
+  padding: 0.625rem 0;
+  text-align: center;
+}
+
+.social .content > ul{
+  padding-left: 0;
+}
