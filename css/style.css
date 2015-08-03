@@ -12,10 +12,12 @@ body{
   background-color: LightGray;
 }
 
+/*drawing div containers**
 div{
   border: 1px solid Chocolate;
   
 }
+*/
 
 /****Navigation section****/
 .navbar{
@@ -28,11 +30,9 @@ div{
 
 /*Notes: margin: 0 auto to center*/
 .content{
-  /*width: 970px;*/
   width: 1140px;
   margin: 0 auto;
   padding: 0 0.938rem;
-  /*padding-top: 15px;*/
 }
 
 .navbar .navLogo{
@@ -40,7 +40,6 @@ div{
   margin-top: 0.7em;
   margin-bottom: 0.7em;
 }
-
 
 .navbar .links{
   float: right;
@@ -71,12 +70,7 @@ div{
 }
 
 /*Middle section: Karma introduction*/
-
 .intro-section{
-  /*
-  padding-top: 10rem;
-  padding-bottom: 10rem;
-  */
   background-position: center bottom;
   height: 46rem;
   background-image: url("../images/Karma-background-img.jpg");
@@ -90,10 +84,6 @@ div{
 }
 
 .intro-title{
-  /*
-  margin-top: 10rem;
-  margin-bottom: 0.4em;
-  */
   color: white;
   font-family: 'PT Sans', sans-serif;
   font-size: 3em;
@@ -113,9 +103,6 @@ div{
   padding: 16px 26px;
   line-height: 1.33;
   background-color: #FF6600;
-  /*
-  border: 1px solid #FF6600;
-  */
   color: #FFFFFF;
   margin-left: 44%;
   text-shadow: none;
@@ -152,30 +139,16 @@ div{
   padding-top: 3em;
 }
 
-/*
-.three-icon-section .content > div img{
-  margin-left: 1em ;
-  margin-right: 1em;
-}
-*/
-/*
-.three-icon-txt{
-  text-align: center;
-  
-}
-*/
 .three-icon-align{
   margin-top: 1em;
   font-size: 1em;
-    /*width: 33.3333333%;*/
   display: flex;
-    /*float: left;*/
   list-style-type: none;
-    /* styles to assist with debugging */
-    /*
-    border: 1px solid black;
-    box-sizing: border-box;
-    */
+  /* styles to assist with debugging */
+  /*
+  border: 1px solid black;
+  box-sizing: border-box;
+  */
 }
 
 .three-icon-align div{
@@ -189,6 +162,7 @@ div{
   text-align: center;
   background-color: #fff;
   padding-bottom: 9.3rem;
+  padding-top: 1em;
   font-family: 'PT Sans', sans-serif;
 }
 
@@ -203,24 +177,13 @@ div{
 
 }
 
-.fa-twitter{
-
-}
-
-.fa-facebook{
-
-}
-
-.fa-instagram{
-
-}
-
 .social p{
   color: #838994;
 }
 
 .social .twitter{
   color: #55acee;
+
 }
 
 .social .facebook{
@@ -233,6 +196,7 @@ div{
 
 .social .icon > li{
   display: inline-block;
+  border: 1px solid rgb(230, 230, 230);
   border-radius: 1.25rem;
   width: 2.5rem;
   height: 2.5rem;
@@ -243,4 +207,9 @@ div{
 
 .social .content > ul{
   padding-left: 0;
+}
+
+.social hr{
+  border: 0;
+  border-top: 1px solid rgb(230, 230, 230);
 }
